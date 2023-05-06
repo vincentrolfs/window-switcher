@@ -1,3 +1,3 @@
 #!/bin/bash
 
-wmctrl -lx
+wmctrl -lx | awk '{print $3}'
